@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - José Igor Souza</title>
+
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./assets/images/FavIcon.png" type="image/x-icon">
+
+    <!-- Normalize   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Css  -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/acordeon.css" />
+    <link rel="stylesheet" href="./assets/css/languages.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <link rel="stylesheet" href="./assets/css/experience.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
+    <link rel="stylesheet" href="./assets/css/academic_form.css" />
+
+    <!-- Fonts  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;500;700&family=Work+Sans:wght@400;500;700&display=swap"
+    />
+
+  </head>
+  <body>
+    <main class="main">
+      <!-- Background  -->
+      <canvas id="canvas1"></canvas>
+      <!-- Header  -->
+      <header class="header">
+        <!-- Photo  -->
+        <img class="photo" id="profile.photo" />
+        <!-- Title  -->
+        <h1 class="title" id="typing">Hello, I'm José Igor Souza</h1>
+        <!-- Information  -->
+        <div class="information">
+          <p class="job">
+            <a href="https://www.linkedin.com/in/igorolivrs/" target="_blank"
+              >Junior Frontend Developer</a
+            >
+          </p>
+          <p class="location">
+           <a href="https://goo.gl/maps/oZpSD17hT5iRLbyE6" target="_blank">Braga, Portugal</a></p>
+          <p class="phone">
+            <a href="https://wa.me/351967465947?text=Hi%20José%20Igor." target="_blank">+351 967 465 947</a>
+          </p>
+          <p class="email">
+            <a href="mailto:igorolivrs@gmail.com" target="_blank">igorolivrs@gmail.com</a>
+          </p>
+        </div>
+      </header>
+      <!-- About Me  -->
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>About Me</h2>
+        </button>
+
+        <div class="content">
+          <p>
+            In 2020, in search of greater satisfaction, quality of life and new
+            challenges, I moved to Portugal, where I started my career
+            transition. 
+          </p>
+          <p>
+            I'm currently attending the Web Development course at
+            the Instituto Politécnico do Cávado e do Ave, where I'm gaining a
+            more detailed understanding and practical experiences in web
+            development, with the aim of establishing myself in a frontend
+            developer career.
+          </p>
+        </div>
+      </section>
+      <!-- Skills  -->
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Skills</h2>
+        </button>
+
+        <div class="content">
+          <div class="skills">
+            <!-- Tools  -->
+            <section class="tools">
+              <h3>Tools:</h3>
+              <ul id="profile.skills.hardSkills">
+                <!-- VSCode  -->
+                <li>
+                  <img
+                    src="./assets/images/icons/tools/vscode.png"
+                    alt="VSCode"
+                  />
+                </li>
+                <!-- HTML  -->
+                <li>
+                  <img src="./assets/images/icons/tools/html.png" alt="HTML5" />
+                </li>
+                <!-- CSS  -->
+                <li>
+                  <img src="./assets/images/icons/tools/css.png" alt="CSS" />
+                </li>
+                <!-- JavaScript  -->
+                <li>
+                  <img
+                    src="./assets/images/icons/tools/js.png"
+                    alt="JavaScript"
+                  />
+                </li>
+                <!-- TypeScript  -->
+                <li>
+                  <img
+                    src="./assets/images/icons/tools/typescript.svg"
+                    alt="TypeScript"
+                  />
+                </li>
+                <!-- Angular  -->
+                <li>
+                  <img
+                    src="./assets/images/icons/tools/angular.png"
+                    alt="AngularJS"
+                  />
+                </li>
+                <!-- NodeJS  -->
+                <li>
+                  <img
+                    src="./assets/images/icons/tools/nodejs.png"
+                    alt="NodeJS"
+                  />
+                </li>
+                <!-- PostgreSQL  -->
+                <li>
+                  <img
+                    src="./assets/images/icons/tools/postgresql.png"
+                    alt="PostgreSQL"
+                  />
+                </li>
+                <!-- Git  -->
+                <li>
+                  <img src="./assets/images/icons/tools/git.png" alt="GitHub" />
+                </li>
+              </ul>
+            </section>
+            <!-- Soft Skills  -->
+            <section class="personal">
+              <h3>Personal Skills</h3>
+              <ul>
+                <li>Communicative and Sociable</li>
+                <li>Organization</li>
+                <li>Creativity</li>
+                <li>Problem Solving</li>
+                <li>Analytical Thinking</li>
+                <li>Team Work</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Languages  -->
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Languages</h2></button>
+
+        <div class="content">
+          <ul class="languages">
+            <li>Português</li>
+            <li>Inglês</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Academic Formation  -->
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Academic Formation</h2>
+        </button>
+
+        <div class="content">
+          <ul class="formation">
+            <li>
+              <h3 class="ipca">Intituto Politécnico do Cávado e do Ave</h3>
+              <p>Web and Multimedia Development</p>
+              <span class="period">2021 - 2023 (Current)</span>
+            </li>
+            <li>
+              <h3 class="ciesa">
+                Ciesa - Centro Universitario de Ensino Superior do Amazonas
+              </h3>
+              <p>Bachelor in Law</p>
+              <span class="period">2013 - 2017</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Portfolio  -->
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Portfolio</h2></button>
+
+        <div class="content">
+          <ul class="portfolio" id="profile.portfolio">
+            <li>
+              <span class="title github">Criando uma app de lembrete</span>
+              <a href="https://www.google.com" target="_blank"
+                >www.google.com</a
+              >
+            </li>
+            <li>
+              <span class="title github">Criando uma app de lembrete</span>
+              <a href="https://www.google.com" target="_blank"
+                >www.google.com</a
+              >
+            </li>
+            <li>
+              <span class="title github">Criando uma app de lembrete</span>
+              <a href="https://www.google.com" target="_blank"
+                >www.google.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Professional Experience  -->
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          <h2>Professional Experience</h2>
+        </button>
+
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">Juridical analyst</h3>
+              <h4>TAG - Assessoria de Comunicação</h4>
+              <span class="period"> Apr 2017 - Feb 2020</span>
+              <p>Monitoring of bidding processes,</p>
+              <p>Contract analysis,</p>
+              <p>Document evaluation and archiving,</p>
+              <p>
+                Preparation of notifications, contracts and administrative
+                resources in general..
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Intern</h3>
+              <h4>Tribunal de Justiça do Amazonas</h4>
+              <span class="period">mar 2015 - mar 2017</span>
+              <p>Family law practice,</p>
+              <p>Customer Service,</p>
+              <p>Holding conciliation hearings,</p>
+              <p>Process review,</p>
+              <p>
+                Drafting of letters, agreements, orders and enforcement of
+                judgment.
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Intern</h3>
+              <h4>Procon Manaus-AM</h4>
+              <span class="period">Oct 2013 - Feb 2015</span>
+              <p>Customer Service,</p>
+              <p>Resolution of administrative conciliation demands,</p>
+              <p>Preparation of administrative processes.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Scripts JS  -->
+    <script src="./assets/js/typing.js"></script>
+    <script src="./assets/js/bg-animation.js"></script>
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

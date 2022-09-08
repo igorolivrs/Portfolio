@@ -1,0 +1,39 @@
+.formation {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.formation li {
+  margin-bottom: 1rem;
+}
+
+.formation li .ipca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formation li .ipca::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../images/ipca.jpg");
+  margin-right: 0.5rem;
+}
+
+.formation li .ciesa::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../images/ciesa.jpg");
+  margin-right: 0.5rem;
+}
